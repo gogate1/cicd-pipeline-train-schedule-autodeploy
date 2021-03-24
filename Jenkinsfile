@@ -85,7 +85,7 @@ pipeline {
             }
         }
     }
-    POST {
+    Post {
         cleanup {
             kubernetesDeploy(
                     kubeconfigId: 'kubeconfig',
